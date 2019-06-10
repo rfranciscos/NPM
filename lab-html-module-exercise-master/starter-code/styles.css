@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* NAV */
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-left a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-right {
+    float: right;
+    margin: 0 20px 0 0;
+}
+
+.top-right a {
+    color:  white;
+    text-decoration: none;
+}
+
+.top-right li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 10px;
+    
+}
+
+
+/* PRESENTATION */
+
+.logo-npm {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.rearch-box {
+    width: 1200px;
+    height: 40px;
+}
+
+.rearch-button {
+    width: 40px;
+}
+
+.top-header {
+    margin: 0 auto;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+}
+
+.top-header ul {
+    float: right;
+}
+
+.top-header li {
+    display: inline-block;
+}
+
+.top-header a {
+    color:  white;
+    text-decoration: none;
+}
+
+.top-header img {
+    height: 50px;
+}
+
+#presentation {
+    background-image: url(./images/city-scape.svg);
+    height: 500px;
+}
+
+.presentation-npm {
+    border: 2px solid green;
+    width: 60%;
+    margin: 2% 20%;
+    color: white;
+
+}
+
+#presentation button {
+    background-color: rgb(240, 146, 51);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* NPM ORGS */
+
+#npm-orgs {
+    background-color: rgb(39, 53, 71);
+}
+
+#npm-orgs img {
+    width: 40%;
+    padding: 5% 10%;
+}
+
+.npm-orgs-text {
+    float: right;
+    padding: 5% 15% 0 0;
+}
+
+#npm-orgs button {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* WHAT IS NPM */
+
+#what-is-npm {
+    background-image: url(./images/forklift.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.what-is-npm-text {
+    padding: 5% 0 0 15%;
+}
+
+#what-is-npm button {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    cursor: pointer;
+}
